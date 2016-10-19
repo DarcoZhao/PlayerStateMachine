@@ -1,0 +1,60 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,01_png,02_png,03_png,04_png,4_png,1_png,2_png,3_png,Sky_jpeg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "01_png",
+			"type": "image",
+			"url": "assets/01.png"
+		},
+		{
+			"name": "02_png",
+			"type": "image",
+			"url": "assets/02.png"
+		},
+		{
+			"name": "03_png",
+			"type": "image",
+			"url": "assets/03.png"
+		},
+		{
+			"name": "04_png",
+			"type": "image",
+			"url": "assets/04.png"
+		},
+		{
+			"name": "4_png",
+			"type": "image",
+			"url": "assets/4.png"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "assets/1.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "assets/2.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "assets/3.png"
+		},
+		{
+			"name": "Sky_jpeg",
+			"type": "image",
+			"url": "assets/Sky.jpeg"
+		}
+	]
+}
