@@ -89,18 +89,6 @@ class Pole extends egret.DisplayObjectContainer {
             else{count=0;}    
             if(this.Modle!=M){console.log("tM:"+M+" nowM:"+this.Modle); timer.stop();}    
         }   
-        /* 帧动画一代目
-        PlayAni1();
-        var timer:egret.Timernew egret.Timer(100, time);
-            egret.Tween.get(Bit).wait(150).call(PlayAni2);
-        }
-        function PlayAni2(){
-            Bit.texture=Ani[count];
-            if(count<Ani.length-1){console.log(Ani.length+" "+count); count++;}
-            else{count=0;}
-            PlayAni1();
-       }
-       */
   
     }
 
@@ -170,7 +158,7 @@ class MoveSta implements Sta{
                 this.timer.stop();
         //        this.Player.Modle=-1;
        //         console.log("1");
-               if(this.LeastTime>-10) {this.Player.Idle();}//意味着是走停不是逼停
+               if(this.LeastTime>-10) {this.Player.Idle();}
              }
         }, this);
         this.timer.start();
